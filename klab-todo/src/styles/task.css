@@ -1,0 +1,49 @@
+.task-form {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: flex-end;
+    /* justify-content: right; */
+}
+
+.task-form input {
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #A5A763;
+    background-color: black;
+    color: white;
+    outline: none;
+    text-align: center;
+    width: 8rem;
+}
+
+.task-form select {
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    border: 0.1rem solid #A5A763;
+    text-align: left;
+}
+
+.task-form .task {
+    width: 18rem;
+    text-align: left;
+}
+
+.task-form button {
+    background: #A5A763;
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    width: 8rem;
+}
+
+.task-form p {
+    margin: 0rem;
+    margin-right: 9rem;
+
+}

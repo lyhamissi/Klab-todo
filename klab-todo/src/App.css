@@ -1,0 +1,35 @@
+body {
+  background: #bababa;
+  color: #f6f7cd;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #121212;
+  height: 90vh;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  background: #212c29;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.highlight {
+  color: #b2b7d1;
+}
