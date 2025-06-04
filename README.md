@@ -31,3 +31,8 @@ The layout includes:
 - CSS (using `rem` units for responsiveness)
 - localStorage for task persistence
 - Vite / Create React App (depending on setup)
+
+
+## Deployed Link 
+
+- Check out the live version here:[https://klab-todo.vercel.app](https://klab-todo.vercel.app)
