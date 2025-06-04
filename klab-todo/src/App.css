@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .app {
@@ -17,6 +17,7 @@ body {
   margin-top: 2rem;
   border-radius: 2rem;
   margin-bottom: 2rem;
+  overflow-y: auto;
 }
 
 .hero {
@@ -32,4 +33,26 @@ body {
 
 .highlight {
   color: #b2b7d1;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .app {
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .hero {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
 }

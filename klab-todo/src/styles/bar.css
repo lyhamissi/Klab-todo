@@ -3,18 +3,35 @@
   gap: 0.3rem;
   margin-top: 2rem;
   justify-content: right;
+  flex-wrap: wrap;
 }
 
+/* Buttons */
 .filter-bar button {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 2rem;
   background: #1e1e1e;
   color: white;
-  border: 0.1rem solid  #DADDFF;
+  border: 0.1rem solid #DADDFF;
 }
 
+/* Active button */
 .filter-bar .active {
   background: #DADDFF;
   color: black;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .filter-bar {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .filter-bar button {
+    flex: 1 1 auto;
+    min-width: 6rem;
+    text-align: center;
+  }
 }
