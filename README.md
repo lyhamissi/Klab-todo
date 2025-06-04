@@ -7,8 +7,7 @@ A responsive task planner web application built with React that helps users add,
 - Add a new task with a name and duration
 - Filter tasks by duration (All, Daily, Weekly, Monthly, Yearly)
 - Edit existing tasks
-- Delete tasks
-- Tasks are saved in localStorage for persistence
+- Delete task
 - Simple, clean, and user-friendly UI inspired by the provided Figma design
 
 ## UI Overview
